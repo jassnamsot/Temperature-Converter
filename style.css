@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppin', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(background.jpeg);
+}
+
+.container{
+    max-width: 450px;
+    background: #274c56;
+    border-radius: 20px;
+    /* padding: 20px; */
+}
+
+.background img{
+    height: 150px;
+    width: 450px;
+    border-radius: 20px 20px 0 0;
+}
+
+.title{
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #ddd;
+}
+
+input{
+    height: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    border: none;
+    border-radius: 8px 0 0 8px;
+    padding: 0 10px;
+}
+
+.celsius, .fahrenheit, .kelvin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.type{
+    background: #4b717b;
+    line-height: 60px;
+    padding: 0 15px;
+    border-radius: 0 10px 10px 0;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+button{
+    border: none;
+    outline: none;
+    background: #fff;
+    color: gray;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    height: 50px;
+    width: 150px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn{
+    margin: 25px 0;
+    text-align: center;
+
+}
+button:hover{
+    background: orange;
+    color: #000;
+}
+
+
+
+
